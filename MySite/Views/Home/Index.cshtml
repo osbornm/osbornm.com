@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Who I am";
+}
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@ViewBag.Title.</h1>
+            <h2>@ViewBag.Message</h2>
+        </hgroup>
+        <p>
+            I spent the first few years of my career working in a small startup until I joined <span class="highlight">Microsoft</span> in June of 2008. 
+            I am currently a Software Development Engineer working on <a href="http://nuget.org" title="NuGet Package Manage">NuGet</a>, 
+            <a href="http://www.microsoft.com/web/webmatrix/" title="ASP.NET WebPages">ASP.NET Web Pages</a>, and 
+            <a href="http://www.asp.net/mvc" title="ASP.NET MVC">ASP.NET MVC</a>. I have a passion for all web technologies 
+            with a special interest in clean and semantic <span class="highlight">HTML &amp; CSS</span>. I have been immersed in the world of .NET since 2005.
+        </p>
+    </div>
+</section>
+}
+
+<h3 class="suggestion">I suggest you do the following:</h3>
+
+<ol class="round">
+    <li class="one">
+        <a href="http://blog.osbornm.com" title="Read my blog - http://blog.osbornm.com" class="big-link">
+            <h3>Read my blog</h3>
+            Do you like reading about anything and everything ASP.NET? Do you enjoy bad jokes and dry humor? If you answered yes to any of those my 
+            blog is for you! I blog about features I am working on, gotchas and pain points that I run into, and general anything .NET related that 
+            I find interesting. http://blog.osbornm.com
+        </a>
+    </li>
+    <li class="two">
+        <h3>Take a look at some of my work</h3>
+        Most of my work revolves around something to do with the web. So it’s only natural that I would post most of it on the web right? I 
+        have code/projects on both CodePlex.com and BitBucket.org.  Additionally I enjoy being active in the community by asking and answering 
+        questions on StackOverflow.com.  Follow the links below to see a list of my activity on those sites.
+        <ul>
+            <li>
+                My commits on <a href="https://github.com/osbornm" title="My commits on Github.com">Github.com</a>
+            </li>
+            <li>
+                My check-ins on <a href="http://www.codeplex.com/site/users/view/osbornm" title="My check-ins on CodePlex.com">CodePlex.com</a>
+            </li>
+            <li>
+                My commits on <a href="https://bitbucket.org/osbornm/" title="My commits on BitBucket.org">BitBucket.org</a>
+            </li>
+            <li>
+                My activity on <a href="http://stackoverflow.com/users/5235/matthew-m-osborn" title="My activity on StackOverflow.com">StackOverflow.com</a>
+            </li>
+        </ul>
+    </li>
+    <li class="three">
+        <a href="http://twitter.com/osbornm" title="Follow me on twitter - @@osbornm" class="big-link">
+            <h3>Follow me on twitter</h3>
+            Enjoy reading random 140 character shot thoughts? Well then head over to my twitter page and start following me. I try to keep my tweets 
+            focused on technology, gadgets, occasionally Seattle events, and every once in a while a rant about something I dislike. @@osbornm 
+        </a>
+    </li>
+    <li class="four">
+        <a href="http://flickr.com/osbornm" title="Look at my pictures on flickr - flickr.com/osbornm" class="big-link">
+            <h3>Look at my pictures on flickr</h3>
+            A hobby I have picked up over the years has been photography. Now don’t confuse my confession of interest as a statement that I am any good. 
+            I am, in every sense of the word, an amateur. However, I do enjoy it and like to share my work. http://flickr.com/osbornm
+        </a> 
+    </li>
+</ol>
+
+<section class="features">
+    <section class="feature">
+        <img src="@Url.Content("~/images/myBlog.png")" alt="My Blog" />
+        <h3>My Blog</h3>
+        <p>
+            My blog is something that I take pride in and spend a lot of time working on the content. It is a great place to find walk-throughs, 
+            tips and tricks, and insights on ASP.NET Web Pages, NuGet, and ASP.NET MVC. You can find it at 
+            <a href="http://blog.osbornm.com" title="My Blog - http://blog.osbornm.com">http://blog.osbornm.com</a>
+        </p>
+    </section>
+    <section class="feature">
+        <img src="@Url.Content("~/images/myTalks.png")" alt="My Talks" />
+        <h3>My Talks</h3>
+        <p>
+            I enjoy being engaged in the community and part of that engagement is giving talks at conferences and user groups. A side effect of 
+            this is that I have a collection of samples, slides, and videos. Take a look at my 
+            @Html.ActionLink("presentations page", "Talks", "Home") for more information. 
+        </p>
+    </section>
+    <section class="feature">
+        <img src="@Url.Content("~/images/myCode.png")" alt="My Code" />
+        <h3>My Code</h3>
+        <p>
+            I take pride in the work I do and just like any other developer out there I like showing that work off.  That said you can view my 
+            projects and activity on <a href="https://github.com/osbornm" title="Github.com">Github.com</a>, 
+            <a href="http://www.codeplex.com/site/users/view/osbornm" title="CodePlex.com">CodePlex.com</a>, as well 
+            as <a href="https://bitbucket.org/osbornm/" title="BitBucket.org">BitBucket.org</a>.  
+        </p>
+    </section>
+</section>
