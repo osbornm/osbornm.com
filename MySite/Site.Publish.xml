@@ -104,7 +104,7 @@
     <file relUrl="Views/_ViewStart.cshtml" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Images/orderedListTwo.png" publishTime="11/09/2011 14:30:35" />
-    <file relUrl="Views/Home/Talks.cshtml" publishTime="12/11/2011 19:20:09" />
+    <file relUrl="Views/Home/Talks.cshtml" publishTime="12/11/2011 20:41:11" />
     <file relUrl="Scripts/jquery.unobtrusive-ajax.min.js" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Scripts/jquery-1.6.2.js" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Views/Shared/Error.cshtml" publishTime="11/09/2011 14:30:35" />
@@ -131,12 +131,12 @@
     <file relUrl="bin/System.Web.Helpers.dll" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Views/Home/Contact.cshtml" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Images/heroAccent.png" publishTime="11/09/2011 14:30:35" />
-    <file relUrl="bin/MySite.pdb" publishTime="12/11/2011 19:17:56" />
+    <file relUrl="bin/MySite.pdb" publishTime="12/11/2011 20:31:05" />
     <file relUrl="bin/System.Web.Razor.dll" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Images/MyCode.png" publishTime="11/09/2011 14:30:35" />
     <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="11/09/2011 14:30:35" />
     <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="11/09/2011 14:30:35" />
-    <file relUrl="bin/MySite.dll" publishTime="12/11/2011 19:17:56" />
+    <file relUrl="bin/MySite.dll" publishTime="12/11/2011 20:31:05" />
     <file relUrl="Content/Site.css" publishTime="12/11/2011 19:22:39" />
     <file relUrl="Views/Shared/_LogOnPartial.cshtml" publishTime="11/09/2011 14:30:35" />
     <file relUrl="Scripts/jquery.unobtrusive-ajax.js" publishTime="11/09/2011 14:30:35" />
