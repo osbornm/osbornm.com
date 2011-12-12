@@ -19,7 +19,7 @@ namespace MySite.Controllers {
         }
 
         public ActionResult Talks() {
-            ViewBag.Message = "A collection of samples, slides, and videos.";
+            ViewBag.Message = "A list talks I can give.";
 
             return View();
         }

@@ -602,3 +602,72 @@ ul#social li {
             width: auto;
         }    
 }
+
+
+.timeline-wrapper {
+    background: url("../images/timeline.png") repeat-y;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    
+}
+
+    .timeline li {
+        padding: 10px;
+        width: 45%;
+        border: 1px solid #333;
+        margin: 5px 0;
+    }
+    
+        .timeline li.right {
+            float: right;
+        }
+        
+        .timeline li.left {
+            float: left;
+        }
+        
+        .timeline li.seperator {
+            background-color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            moz-border-radius: 5px;
+            web-border-radius: 5px;
+            clear: both;
+            color: #717171;
+            font-size: 2em;
+            margin: 5px auto;
+            text-align: center;
+            width: 230px;
+        }
+        
+        
+        .timeline hgroup {
+            margin-bottom: 10px;
+        }
+        
+        .timeline hgroup h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        
+        .timeline hgroup h2 {
+            font-size: 1.25em;
+            margin: 0;
+        }
+        
+        .timeline p {
+            margin: 5px 0;
+        }
+        
+        .timeline .talk {
+            border-bottom: solid 2px #e2e2e2;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .talk.last {
+            border: none;
+        }

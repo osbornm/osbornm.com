@@ -106,6 +106,7 @@
     <Content Include="Images\MyCode.png" />
     <Content Include="Images\myTalks.png" />
     <Content Include="Images\orderedListFour.png" />
+    <Content Include="Images\timeline.png" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
