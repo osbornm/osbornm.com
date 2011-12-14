@@ -294,25 +294,107 @@ aside {
 }
 
 /* talks */
-section.talk {
-    padding-bottom: 10px;
-    border-top: solid 1px #e2e2e2;
-    clear: both;
+.three-column .talk {
+    width: 300px;
+    float: left;
+    padding: 10px;
 }
 
-    section.talk.first {
-        border: none;
-    }
-    
-    section.talk .slides {
-        margin: 10px 0 10px 10px;
-        float: right;
-        width: 300px;
+    .three-column .talk  h3 {
+        font-size: 1.5em;
+        height: 3em;
     }
 
-    section.video:last-child {
-        border:none;
+    .three-column .talk p {
+        text-align: justify;
     }
+    
+    
+/* Timeline */
+.timeline-wrapper {
+    background: url("../images/timeline.png") repeat-y;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    
+}
+
+    .timeline li {
+        background-color: #fff;
+        padding: 10px;
+        width: 45%;
+        border: 1px solid #333;
+        border-radius: 5px;
+        moz-border-radius: 5px;
+        web-border-radius: 5px;
+        margin: 10px 0;
+    }
+    
+        .timeline li.right {
+            float: right;
+        }
+        
+        .timeline li.left {
+            float: left;
+        }
+        
+        .timeline li.seperator {
+            background-color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            moz-border-radius: 5px;
+            web-border-radius: 5px;
+            clear: both;
+            color: #717171;
+            font-size: 1.5em;
+            margin: 5px auto;
+            padding: 0 0 4px 0;
+            text-align: center;
+            width: 200px;
+        }
+        
+            .timeline hgroup {
+                border-bottom: 2px solid #333;
+                margin-bottom: 10px;
+                padding-bottom: 5px;
+            }
+        
+                .timeline hgroup h1 {
+                    display: inline;
+                    font-size: 1.5em;
+                    padding-right: .5em;
+                }
+        
+                .timeline hgroup h2 {
+                    display: inline;
+                    font-size: 1.2em;
+                    font-weight: normal;
+                }
+                
+            .timeline p {
+                margin: 5px 0;
+                text-align:justify;
+            }
+        
+            .timeline .talk {
+                border-bottom: solid 2px #e2e2e2;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+            }
+        
+                .timeline .talk .link-heading {
+                    font-size: 1.25em;
+                    font-weight: 600;
+                    padding: 0;
+                    text-decoration: none;
+                }
+        
+            .talk.last {
+                border: none;
+            }
+    
 
 /* contact */
 .contact h3 {
@@ -613,72 +695,3 @@ ul#social li {
             width: auto;
         }    
 }
-
-
-.timeline-wrapper {
-    background: url("../images/timeline.png") repeat-y;
-}
-
-.timeline {
-    list-style: none;
-    padding: 0;
-    
-}
-
-    .timeline li {
-        padding: 10px;
-        width: 45%;
-        border: 1px solid #333;
-        margin: 5px 0;
-    }
-    
-        .timeline li.right {
-            float: right;
-        }
-        
-        .timeline li.left {
-            float: left;
-        }
-        
-        .timeline li.seperator {
-            background-color: #e2e2e2;
-            border: none;
-            border-radius: 5px;
-            moz-border-radius: 5px;
-            web-border-radius: 5px;
-            clear: both;
-            color: #717171;
-            font-size: 2em;
-            margin: 5px auto;
-            text-align: center;
-            width: 250px;
-        }
-        
-        
-        .timeline hgroup {
-            margin-bottom: 10px;
-        }
-        
-        .timeline hgroup h1 {
-            font-size: 1.5em;
-            margin: 0;
-        }
-        
-        .timeline hgroup h2 {
-            font-size: 1.25em;
-            margin: 0;
-        }
-        
-        .timeline p {
-            margin: 5px 0;
-        }
-        
-        .timeline .talk {
-            border-bottom: solid 2px #e2e2e2;
-            margin-bottom: 10px;
-            padding-bottom: 10px;
-        }
-        
-        .talk.last {
-            border: none;
-        }
