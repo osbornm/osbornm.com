@@ -662,6 +662,23 @@ ul#social li {
     fieldset input[type="password"] {
         width: 90%;
     }
+    
+    /* Timeline */
+    .timeline-wrapper {
+        background: none;
+    }
+
+        .timeline li {
+            width: auto;
+        }
+    
+            .timeline li.right {
+                float: none;
+            }
+        
+            .timeline li.left {
+                float: none;
+            }
 
     /* footer  
     ----------------------------------------------------------*/    
@@ -685,7 +702,7 @@ ul#social li {
             margin: 0;
         }
     
-         a.html5, a.twitter {
+         a.html5, a.twitter, a.github {
             background: none;
             display: inline;
             float: none;
