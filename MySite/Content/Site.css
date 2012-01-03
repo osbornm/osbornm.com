@@ -564,6 +564,22 @@ ul#social li {
     }
         
         
+/* Errors */            
+.error-content {
+    margin-top: 80px;
+}
+
+.error-show-code {
+    background-image: url("../Images/errorPage.png");
+    background-repeat: no-repeat;
+    height: 125px;
+    left: 0;
+    position:fixed;
+    top: 0;
+    text-indent: -9999px;
+    width: 220px;
+} 
+        
 /********************
 *   Mobile Styles   *
 ********************/

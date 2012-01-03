@@ -99,7 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Errors\error.html" />
     <Content Include="Global.asax" />
+    <Content Include="Images\errorPage.png" />
     <Content Include="Images\github.png" />
     <Content Include="Images\html5.png" />
     <Content Include="Images\myBlog.png" />
@@ -153,6 +155,8 @@
     <Content Include="Views\Home\Talks.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Errors\_ErrorLayout.cshtml" />
+    <Content Include="Errors\404.cshtml" />
     <None Include="Properties\PublishProfiles\osbornm.com.pubxml" />
   </ItemGroup>
   <PropertyGroup>

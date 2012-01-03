@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "~/Errors/_ErrorLayout.cshtml";
+    
+    var errorPath = Request.QueryString["aspxerrorpath"];
+
+    if(String.IsNullOrEmpty(errorPath)){
+        errorPath = Request.RawUrl;
+    }
+    
+    errorPath = Path.GetFileNameWithoutExtension(errorPath);
+    Response.StatusCode = 404;
+}
+
+<div class="error-page">
+    <h1>404 : Page Not Found</h1>
+    <p>The page '@errorPath' could not be found. You might be here because:</p>
+    <ul>
+        <li>The page you are looking for does not exist anymore.</li>
+        <li>I moved the page that you are looking for, sorry!</li>
+        <li>You know how to hack URLs and you're trying to find something.</li>
+        <li>I just plain suck and messed something up.</li>
+    </ul>
+
+    <h2>Here is a list of what you can do</h2>
+    <ul>
+        <li><a href="@Href("~/")">Go to the main page of my site.</a></li>
+        <li><a href="http://blog.osbornm.com">Read my blog.</a></li>
+        <li><a href="@Href("~/Talks")">Take a look at the talks that I give.</a></li>
+        <li><a href="@Href("~/Resume")">Review my Résumé.</a></li>
+        <li><a href="@Href("~/Contact")">Get ahold of me on my contact page.</a></li>
+    </ul>
+
+    <h2>Still not finding what you're looking for?</h2>
+    <ul>
+        <li>File a bug against <a href="https://github.com/osbornm/osbornm.com">my site's Github repo</a> so I can fix it.</li>
+    </ul>
+</div>
