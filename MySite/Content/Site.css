@@ -227,20 +227,44 @@ ol.round {
         padding-left: 45px;
     }
     
+        ol.round li.zero {
+            background: url("../Images/orderedList0.png") no-repeat;
+        }
+
         ol.round li.one {
-            background: url("../images/orderedlistOne.png") no-repeat;        
+            background: url("../Images/orderedList1.png") no-repeat;
         }
-    
+
         ol.round li.two {
-            background: url("../images/orderedlistTwo.png") no-repeat;        
+            background: url("../Images/orderedList2.png") no-repeat;
         }
-    
+
         ol.round li.three {
-            background: url("../images/orderedlistThree.png") no-repeat;        
+            background: url("../Images/orderedList3.png") no-repeat;
         }
-        
+
         ol.round li.four {
-            background: url("../images/orderedlistFour.png") no-repeat;        
+            background: url("../Images/orderedList4.png") no-repeat;
+        }
+
+        ol.round li.five {
+            background: url("../Images/orderedList5.png") no-repeat;
+        }
+
+        ol.round li.six {
+            background: url("../Images/orderedList6.png") no-repeat;
+        }
+
+        ol.round li.seven {
+            background: url("../Images/orderedList7.png") no-repeat;
+        }
+
+        ol.round li.eight {
+            background: url("../Images/orderedList8.png") no-repeat;
+        }
+
+        ol.round li.nine {
+            background: url("../Images/orderedList9.png") no-repeat;
         }
          
          
