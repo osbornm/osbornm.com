@@ -216,6 +216,12 @@ section.feature {
     padding: 10px;
 }
 
+section.feature {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
 /* ordered list */
 ol.round {
     list-style-type: none;
@@ -323,6 +329,10 @@ aside {
     float: left;
     padding: 10px;
 }
+
+    .three-column .talk iframe {
+        width: 300px !important;
+    }
 
     .three-column .talk  h3 {
         font-size: 1.5em;
@@ -607,7 +617,7 @@ ul#social li {
 /********************
 *   Mobile Styles   *
 ********************/
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 965px) {
     
     /* header  
     ----------------------------------------------------------*/
@@ -647,7 +657,7 @@ ul#social li {
     ----------------------------------------------------------*/
     .main-content,
     .featured + .main-content {
-        background-position: 10px 0;
+        background: none;
     }
     
     .content-wrapper {
@@ -679,7 +689,12 @@ ul#social li {
             ol.round li.one,
             ol.round li.two,
             ol.round li.three,
-            ol.round li.four {
+            ol.round li.four,
+            ol.round li.five,
+            ol.round li.six,
+            ol.round li.seven,
+            ol.round li.eight,
+            ol.round li.nine {
                 background: none;        
             }
      
@@ -703,6 +718,19 @@ ul#social li {
         width: 90%;
     }
     
+    /*Slides*/
+    .three-column section.talk {
+        width: auto;
+    }
+
+    .three-column section.talk h3{
+        height: auto;
+    }
+
+        section.talk iframe {
+            display: none;
+        }
+
     /* Timeline */
     .timeline-wrapper {
         background: none;
