@@ -103,6 +103,14 @@ h3.suggestion {
     padding-bottom: 35px;
 }
 
+.main-content,
+.featured + .main-content {
+    -moz-transition: background-position ease-in .5s;
+    -o-transition: background-position ease-in .5s;
+    -webkit-transition: background-position ease-in .5s;
+    transition: background-position ease-in .5s;
+}
+
     .main-content {
         background: url("../images/accent.png") no-repeat;
         padding-left: 10px;
@@ -222,6 +230,15 @@ section.feature {
     padding: 10px;
 }
 
+    section.feature img {
+        height: 175px;
+        width: 235px;
+        -moz-transition: all linear .5s;
+        -o-transition: all linear .5s;
+        -webkit-transition: all linear .5s;
+        transition: all linear .5s;
+    }
+
 /* ordered list */
 ol.round {
     list-style-type: none;
@@ -231,10 +248,14 @@ ol.round {
     ol.round li {
         margin: 25px 0;
         padding-left: 45px;
+        -moz-transition: all ease-in .5s;
+        -o-transition: all ease-in .5s;
+        -webkit-transition: all ease-in .5s;
+        transition: all ease-in .5s;
     }
     
         ol.round li.zero {
-            background: url("../Images/orderedList0.png") no-repeat;
+            background: url("../Images/orderedList0.png")  0 0 no-repeat;
         }
 
         ol.round li.one {
@@ -612,13 +633,12 @@ ul#social li {
     top: 0;
     text-indent: -9999px;
     width: 220px;
-} 
-        
+}
+
 /********************
 *   Mobile Styles   *
 ********************/
 @media only screen and (max-width: 965px) {
-    
     /* header  
     ----------------------------------------------------------*/
     header .float-left, 
@@ -657,7 +677,7 @@ ul#social li {
     ----------------------------------------------------------*/
     .main-content,
     .featured + .main-content {
-        background: none;
+        background-position: -80px 0;
     }
     
     .content-wrapper {
@@ -695,7 +715,7 @@ ul#social li {
             ol.round li.seven,
             ol.round li.eight,
             ol.round li.nine {
-                background: none;        
+                background-position: -30px 0;        
             }
      
      /* features */
@@ -706,10 +726,13 @@ ul#social li {
      }
      
         section.feature img {
-            color: #999;
+            opacity: 0;
+            height: 0;
+            width: 0;
+            /*color: #999;
             content: attr(alt);
             font-size: 1.5em;
-            font-weight: 600;
+            font-weight: 600;*/
         }
         
     /* forms */    
