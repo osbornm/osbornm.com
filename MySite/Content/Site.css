@@ -347,9 +347,21 @@ aside {
 /* talks */
 .three-column .talk {
     width: 300px;
+    height: 710px;
     float: left;
     padding: 10px;
 }
+
+    .three-column .talk .slides {
+        height: 300px;
+        width: 300px;
+    }
+
+        .three-column .talk .slides.wide {
+            padding-top: 30px;
+            height: 270px;
+        }
+
 
     .three-column .talk iframe {
         width: 300px !important;
